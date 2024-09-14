@@ -1,0 +1,63 @@
+/* Custom overflow styling */
+.overflow-y-custom {
+    overflow-y: auto;
+    scrollbar-width: none;
+    scrollbar-color: #3498db #f1f1f1; /* Warna scrollbar dan background scrollbar */
+}
+
+/* Gaya umum untuk item menu */
+.sidebar a {
+    transition: all 0.3s ease;
+}
+
+/* CSS untuk list item */
+.list-item {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    width: 100%;
+    font-size: 0.875rem;
+    color: #1f2937; /* Gray 900 */
+    border-radius: 0.5rem;
+    /* transition: background-color 0.75s ease; */
+    gap: 1.25rem;
+}
+
+.list-item:hover .link {
+    color: rgb(12, 117, 251); /* Biru */
+}
+
+.list-item:hover svg line,
+.list-item:hover svg circle {
+    stroke: #0c75fb; /* Biru */
+    fill: #0c75fb; /* Biru */
+}
+
+/* Transisi halus untuk perubahan warna */
+svg line,
+.link {
+    transition: color 0.2s ease, stroke 0.2s ease;
+}
+svg circle,
+.link {
+    transition: color 0.7s ease, stroke 0.7s ease;
+}
+
+/* CSS untuk list item */
+.list-menu {
+    transition: background-color 0.3s ease;
+}
+
+/* CSS untuk hover effect */
+.list-menu:hover .bg-transparent {
+    background-color: #0c75fb; /* Biru muda */
+    transition: background-color 0.3s ease;
+}
+
+.is-invalid {
+    border-color: red;
+}
+
+#alert-success {
+    transition: opacity 300ms ease-in-out;
+}
