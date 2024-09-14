@@ -21,7 +21,7 @@ class DashboardController extends Controller
         $clusterCounts = Result::join('centroids', 'results.kode_centroid', '=', 'centroids.kode_centroid')
             ->select('centroids.nama_cluster', Result::raw('count(results.student_id) as count'))
             ->groupBy('centroids.nama_cluster')
-            ->orderBy('centroids.nama_cluster')
+            ->orderBy('centroids.kode_centroid')
             ->get();
 
         // Menghitung jumlah siswa per rumpun
