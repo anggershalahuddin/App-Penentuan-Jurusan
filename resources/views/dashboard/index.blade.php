@@ -66,7 +66,7 @@
 
         <div class="w-full">
 
-            <div class="grid grid-cols-[70%_30%] space-x-5">
+            <div class="grid grid-cols-[70%_30%] space-x-5 min-h-56">
 
                 {{-- Modal Siswa per-jurusan --}}
                 <div class="bg-white shadow-lg rounded-lg p-5 flex flex-col space-y-5">

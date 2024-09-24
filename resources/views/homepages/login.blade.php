@@ -18,7 +18,7 @@
                             jurusan kuliah berdasarkan
                             nilai akademik siswa kelas XII, yang
                             bertujuan untuk
-                            memberikan rekomendasi jurusan kuliah yang tepat bagi siswa kelas XII melalui imlementasi
+                            memberikan rekomendasi jurusan kuliah yang tepat bagi siswa kelas XII melalui implementasi
                             Algortima K-Means Clustering.</p>
                     </div>
                 </span>
